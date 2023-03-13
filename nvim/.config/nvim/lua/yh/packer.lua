@@ -53,12 +53,6 @@ return require('packer').startup(function(use)
 
     use('norcalli/nvim-colorizer.lua')
 
-    use('folke/zen-mode.nvim')
-
-    use { "akinsho/toggleterm.nvim", tag = '*', config = function()
-        require("toggleterm").setup()
-    end }
-
     use {
         'numToStr/Comment.nvim',
         config = function()

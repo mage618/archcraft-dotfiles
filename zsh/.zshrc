@@ -152,5 +152,9 @@ alias vim="nvim"
 # tmux color fix 
 alias tmux="TERM=xterm-256color tmux"
 
+# start nvm
+source /usr/share/nvm/init-nvm.sh
+
 # starship setup
 eval "$(starship init zsh)"
+export PATH=$PATH:/home/hyy/.spicetify
