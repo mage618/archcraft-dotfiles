@@ -147,14 +147,27 @@ alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
 
+# get rid of autocomplete for ruby repl
+alias irb="irb --noautocomplete"
+
+# neovim
 alias vim="nvim"
 
 # tmux color fix 
 alias tmux="TERM=xterm-256color tmux"
 
 # start nvm
-source /usr/share/nvm/init-nvm.sh
+# source /usr/share/nvm/init-nvm.sh
+
+# start rbenv
+eval "$(rbenv init - zsh)"
 
 # starship setup
 eval "$(starship init zsh)"
+
+# spicetify setup
 export PATH=$PATH:/home/hyy/.spicetify
+
+# volta setup
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
