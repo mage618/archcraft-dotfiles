@@ -156,11 +156,8 @@ alias vim="nvim"
 # tmux color fix 
 alias tmux="TERM=xterm-256color tmux"
 
-# start nvm
-# source /usr/share/nvm/init-nvm.sh
-
 # start rbenv
-eval "$(rbenv init - zsh)"
+# eval "$(rbenv init - zsh)"
 
 # starship setup
 eval "$(starship init zsh)"
