@@ -168,3 +168,6 @@ export PATH=$PATH:/home/hyy/.spicetify
 # volta setup
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+# add custom scripts to path
+# export PATH="$PATH:$HOME/Scripts"

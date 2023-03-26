@@ -1,2 +1,8 @@
 # Config Files
-Hyprland, Neovim, Zsh
+* **Window Manager** • Hyprland
+* **Shell** • Zsh
+* **Terminal** • Foot + Alacritty 
+* **Multiplexer** • Tmux
+* **Launcher** • Wofi
+* **Editor** • Neovim
+* **File Manager** • Thunar + Ranger
