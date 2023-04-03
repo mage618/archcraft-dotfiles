@@ -71,7 +71,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # zsh-syntax-highlighting colors
-source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+# source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/

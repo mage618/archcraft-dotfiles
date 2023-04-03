@@ -1,7 +1,4 @@
-require("catppuccin").setup({
-    flavour = "mocha", -- latte, frappe, macchiato, mocha
-    transparent_background = true,
-})
+require('zenburn').setup()
 
 vim.o.background = "dark"
-vim.cmd.colorscheme('catppuccin')
+vim.cmd.colorscheme('zenburn')
