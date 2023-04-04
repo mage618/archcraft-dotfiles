@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
 
     use { "catppuccin/nvim", as = "catppuccin" }
 
-    use { 'mcchrish/zenbones.nvim', requires = "rktjmp/lush.nvim" }
+    use('rebelot/kanagawa.nvim')
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 

@@ -1,2 +1,4 @@
+require('kanagawa').setup({})
+
 vim.o.background = "dark"
-vim.cmd.colorscheme('zenburned')
+vim.cmd('colorscheme kanagawa')
