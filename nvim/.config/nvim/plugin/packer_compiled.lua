@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  NeoSolarized = {
+    loaded = true,
+    path = "/home/hyy/.local/share/nvim/site/pack/packer/start/NeoSolarized",
+    url = "https://github.com/overcache/NeoSolarized"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/catppuccin",
@@ -130,11 +135,6 @@ _G.packer_plugins = {
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "/home/hyy/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -165,12 +165,6 @@ _G.packer_plugins = {
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/home/hyy/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -195,11 +189,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hyy/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["zenburn.nvim"] = {
-    loaded = true,
-    path = "/home/hyy/.local/share/nvim/site/pack/packer/start/zenburn.nvim",
-    url = "https://github.com/phha/zenburn.nvim"
   }
 }
 

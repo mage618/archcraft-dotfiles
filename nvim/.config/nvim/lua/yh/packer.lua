@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
 
     use { "catppuccin/nvim", as = "catppuccin" }
 
-    use('phha/zenburn.nvim')
+    use('overcache/NeoSolarized')
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
@@ -55,10 +55,5 @@ return require('packer').startup(function(use)
         config = function()
             require('Comment').setup()
         end
-    }
-
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
 end)
