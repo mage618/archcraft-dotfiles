@@ -10,8 +10,8 @@
 
 /** ********** Waybar Window ********** **/
 window#waybar {
-    background-color: #1e1e2e;
-	color: #1e1e2e;
+    background-color: #1f1f28;
+	color: #1f1f28;
     border-bottom: 2px solid #313244;
     transition-property: background-color;
     transition-duration: .5s;
@@ -23,12 +23,12 @@ window#waybar.hidden {
 
 /** ********** Backlight ********** **/
 #backlight {
-	background-color: #cba6f7;
+	background-color: #9575b8;
 }
 
 /** ********** Battery ********** **/
 #battery {
-	background-color: #f9e2af;
+	background-color: #c8c093;
 }
 
 #battery.charging {
@@ -44,8 +44,8 @@ window#waybar.hidden {
 }
 
 #battery.critical:not(.charging) {
-	background-color: #f38ba8;
-    color: #f38ba8;
+	background-color: #c34043;
+    color: #c34043;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -55,30 +55,30 @@ window#waybar.hidden {
 
 /** ********** Clock ********** **/
 #clock {
-	background-color: #a6e3a1;
+	background-color: #6a9589;
 }
 
 /** ********** CPU ********** **/
 #cpu {
-	background-color: #89dceb;
+	background-color: #7e9cd8;
 }
 
 /** ********** Memory ********** **/
 #memory {
-	background-color: #eba0ac;
+	background-color: #7aa89f;
 }
 
 /** ********** Disk ********** **/
 #disk {
-	background-color: #b4befe;
+	background-color: #938aa9;
 }
 
 /** ***** Idle Inhibitor ***** **/
 #idle_inhibitor {
-	background-color: #ABE9B3;
+	background-color: #76946a;
 }
 #idle_inhibitor.deactivated {
-	background-color: #F28FAD;
+	background-color: #c34043;
 }
 
 /** ********** Tray ********** **/
@@ -96,19 +96,19 @@ window#waybar.hidden {
 
 /** ********** MPD ********** **/
 #mpd {
-	background-color: #94e2d5;
+	background-color: #7aa896;
 }
 
 #mpd.disconnected {
-	background-color: #f38ba8;
+	background-color: #c34043;
 }
 
 #mpd.stopped {
-	background-color: #f5c2e7;
+	background-color: #c34043;
 }
 
 #mpd.playing {
-	background-color: #74c7ec;
+	background-color: #7e9cd8;
 }
 
 #mpd.paused {
@@ -116,25 +116,25 @@ window#waybar.hidden {
 
 /** ********** Pulseaudio ********** **/
 #pulseaudio {
-	background-color: #fab387;
+	background-color: #c0a36e;
 }
 
 #pulseaudio.bluetooth {
-	background-color: #f5c2e7;
+	background-color: #c34043;
 }
 #pulseaudio.muted {
 	background-color: #313244;
-	color: #cdd6f4;
+	color: #dcd7ba;
 }
 
 /** ********** Network ********** **/
 #network {
-	background-color: #89b4fa;
+	background-color: #7e9cd8;
 }
 
 #network.disconnected,#network.disabled {
 	background-color: #313244;
-	color: #cdd6f4;
+	color: #dcd7ba;
 }
 #network.linked {
 }
@@ -151,14 +151,14 @@ window#waybar.hidden {
 }
 
 #custom-menu {
-	background-color: #f5c2e7;
+	background-color: #e82424;
 	margin-left: 6px;
 	padding: 2px 6px;
 	font-size: 16px;
 }
 
 #custom-power {
-	background-color: #f38ba8;
+	background-color: #c34043;
 	margin-right: 6px;
 	padding: 2px 8px;
 	font-size: 16px;

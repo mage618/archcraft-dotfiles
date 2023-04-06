@@ -11,7 +11,7 @@
 
 /** ********** Main Window ********** **/
 window {
-	background-color: #1E1E2E;
+	background-color: #1F1F28;
 }
 
 /** ********** Buttons ********** **/
@@ -26,7 +26,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: #89B4FA;
+	background-color: #7E9CD8;
 	outline-style: none;
 }
 
