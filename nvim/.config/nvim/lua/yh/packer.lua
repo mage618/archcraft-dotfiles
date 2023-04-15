@@ -56,4 +56,6 @@ return require('packer').startup(function(use)
             require('Comment').setup()
         end
     }
+
+    use ('Pocco81/true-zen.nvim')
 end)
