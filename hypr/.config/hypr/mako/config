@@ -1,4 +1,4 @@
-## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com>
 ##
 ## Mako configuration file
 
@@ -56,3 +56,4 @@ default-timeout=0
 border-color=#f9e2af
 default-timeout=2000
 group-by=category
+

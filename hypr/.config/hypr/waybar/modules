@@ -86,6 +86,21 @@
          "interval": 10,
          "format": " USED: {used:0.1f}G",
     },
+
+    	// waybar-spotify
+    "custom/spotify": {
+        "exec": "$HOME/.config/hypr/waybar/spotify",
+        "interval": 1,
+        "format": "{}",
+        "tooltip": true,
+        "max-length": 40,
+        "on-click": "playerctl play-pause",
+        "on-click-middle": "playerctl previous",
+        "on-click-right": "playerctl next",
+        "on-scroll-up": "playerctl position 05+",
+        "on-scroll-down": "playerctl position 05-",
+        "smooth-scrolling-threshold": 1,
+    },
            
 	// waybar-mpd
     "mpd": {

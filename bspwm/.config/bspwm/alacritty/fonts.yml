@@ -5,26 +5,26 @@
 font:
   # Normal (roman) font face
   normal:
-    family: "MonoLisa Plus"
+    family: "JetBrainsMono Nerd Font"
     #style: Regular
 
   # Bold font face
   bold:
-    family: "MonoLisa Plus"
+    family: "JetBrainsMono Nerd Font"
     #style: Bold
 
   # Italic font face
   italic:
-    family: "MonoLisa Plus"
+    family: "JetBrainsMono Nerd Font"
     #style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: "MonoLisa Plus"
+    family: "JetBrainsMono Nerd Font"
     #style: Bold Italic
 
   # Point size
-  size: 17
+  size: 10
 
   # Offset
   #offset:

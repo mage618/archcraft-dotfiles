@@ -28,3 +28,4 @@
     "action" : "~/.config/hypr/wlogout/actions --shutdown",
     "keybind" : "s"
 }
+

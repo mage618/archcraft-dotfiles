@@ -16,7 +16,7 @@ done
 /usr/lib/xfce-polkit/xfce-polkit &
 
 # Set wallpaper
-swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/highway_lover.jpg &
+swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/red.jpg &
 
 # Apply themes
 ~/.config/hypr/scripts/gtkthemes &

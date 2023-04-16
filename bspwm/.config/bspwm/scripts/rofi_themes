@@ -4,7 +4,7 @@
 
 # Import Current Theme
 DIR="$HOME/.config/bspwm"
-STYLE="default"
+STYLE="catppuccin-macchiato"
 RASI="$DIR/themes/$STYLE/rofi/themes.rasi"
 
 # List Available Themes
@@ -26,7 +26,7 @@ rofi_cmd() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo ${THEMES[@]} | sed 's/ /|/g' | sed 's/$/|/' | rofi_cmd
+	echo ${THEMES[@]} | sed 's/ /|/g' | sed 's/$/|/' | sed 's/^/Random||/' | rofi_cmd
 }
 
 # Apply Theme
@@ -39,6 +39,9 @@ apply_theme() {
 			break
 		elif [[ "$selected" == "$theme" ]]; then
 			"$DIR"/themes/"$theme"/apply.sh
+			break
+		elif [[ "$selected" == 'Random' ]]; then
+			"$DIR"/themes/"$current"/random.sh
 			break
 		fi
 	done

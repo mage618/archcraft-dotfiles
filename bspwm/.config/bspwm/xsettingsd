@@ -1,8 +1,8 @@
 ## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 
-Net/ThemeName "Arc-Dark"
+Net/ThemeName "Catppuccin-Macchiato-Standard-Blue-Dark"
 Net/IconThemeName "Arc-Circle"
-Gtk/CursorThemeName "Qogirr"
+Gtk/CursorThemeName "Qogirr-Dark"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
 Xft/DPI "-1"
