@@ -1,6 +1,4 @@
-require('catppuccin').setup({
-    flavour = "macchiato"
-})
+require('kanagawa').setup({})
 
 vim.o.background = "dark"
-vim.cmd('colorscheme catppuccin')
+vim.cmd('colorscheme kanagawa')
