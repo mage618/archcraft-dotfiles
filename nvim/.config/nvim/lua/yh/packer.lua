@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
 
     use('rebelot/kanagawa.nvim')
 
+    use('neanias/everforest-nvim')
+
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
     use('theprimeagen/harpoon')

@@ -4,7 +4,7 @@ require('true-zen').setup({
 			shade = "dark", -- if `dark` then dim the padding windows, otherwise if it's `light` it'll brighten said windows
 			backdrop = 0, -- percentage by which padding windows should be dimmed/brightened. Must be a number between 0 and 1. Set to 0 to keep the same background color
 			minimum_writing_area = { -- minimum size of main window
-				width = 70,
+				width = 85,
 				height = 44,
 			},
 			quit_untoggles = true, -- type :q or :qa to quit Ataraxis mode
@@ -24,15 +24,15 @@ require('true-zen').setup({
 		minimalist = {
 			ignored_buf_types = { "nofile" }, -- save current options from any window except ones displaying these kinds of buffers
 			options = { -- options to be disabled when entering Minimalist mode
-				number = false,
-				relativenumber = false,
+				number = true,
+				relativenumber = true,
 				showtabline = 0,
-				signcolumn = "no",
+				signcolumn = "yes",
 				statusline = "",
 				cmdheight = 1,
 				laststatus = 0,
-				showcmd = false,
-				showmode = false,
+				showcmd = true,
+				showmode = true,
 				ruler = false,
 				numberwidth = 1
 			},
