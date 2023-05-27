@@ -42,5 +42,6 @@ format = "[$duration]($style) "
 style = "yellow"
 
 [python]
-format = "[$virtualenv]($style) "
+# format = "[$virtualenv]($style) "
+format = "($style)"
 style = "bright-black"
